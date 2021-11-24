@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4416835000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Test page is open",
+            "match": {
+              "location": "BackgroundStepDefinition.test_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74834600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepDefinition.button_exists(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56021000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepDefinition.button_exists(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "background-color-check;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58893200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"sky\"  color button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sky",
+                  "offset": 12
+                }
+              ],
+              "location": "BackgroundStepDefinition.i_click_on_color_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29429800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BackgroundStepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2043921100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Test page is open",
+            "match": {
+              "location": "BackgroundStepDefinition.test_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60912600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepDefinition.button_exists(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40247100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepDefinition.button_exists(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "White Background Change;",
+        "description": "",
+        "id": "background-color-check;white-background-change;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46047800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on \"white\"  color button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 12
+                }
+              ],
+              "location": "BackgroundStepDefinition.i_click_on_color_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46903800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "BackgroundStepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Background color check",
+    "description": "",
+    "id": "background-color-check",
+    "keyword": "Feature",
+    "uri": "C:/Users/sandh/june2021-Selenium/Final_cucumber/src/test/java/features/TF_Final_BackGround.feature"
+  }
+]
